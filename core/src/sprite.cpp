@@ -9,5 +9,3 @@ Sprite::Sprite(const Quad &q): quad(q) {
 	rotation = 0.0f;
 }
 
-Sprite::~Sprite() {
-}

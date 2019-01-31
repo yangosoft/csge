@@ -30,7 +30,9 @@ set(HEADER_FILES "inc/core/program.h"
 "inc/core/shader.h"
 "inc/core/sprite.h"
 "inc/core/texture.h"
-"inc/core/window.h")
+"inc/core/window.h"
+"inc/core/node.h"
+"inc/core/nodelist.h")
 
 set (SOURCE_FILES src/program.cpp
 src/quadbatch.cpp
@@ -39,7 +41,8 @@ src/scene.cpp
 src/shader.cpp
 src/sprite.cpp
 src/texture.cpp
-src/window.cpp)
+src/window.cpp
+src/node.cpp)
 
 
 
